@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GiftingSystem_Database" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-LRNQQDPP;Initial Catalog=GiftingSystem_Database;Integrated Security=True" SettingsObjectName="Gifting_System.Properties.Settings" SettingsPropertyName="GiftingSystem_DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Buyer" Member="Buyers">
+    <Type Name="Buyer">
+      <Column Name="B_username" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="B_password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="B_phone" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="B_spendinglimit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Seller" Member="Sellers">
+    <Type Name="Seller">
+      <Column Name="S_username" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="S_password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="S_phone" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
