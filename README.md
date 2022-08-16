@@ -18,7 +18,7 @@ Seller are allowed to update the system, add new Gifts and add all the detailed 
 the categories (Men, Women and Kids), description, price and quantity. 
 
 Project requirements
-In this project, you must use the concepts given in CS 313T
+ must use the concepts given in CS 313T
 The GUI and LINK instructions should be created in C# Language using Visual Studio version 2012 (Only).
 The Data base should be created using SQL Server Management Studio version 2012.
 
